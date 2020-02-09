@@ -35,7 +35,10 @@ int stop = 0;
           {
             cout << i << "rd" << " Hello ..." << endl; 
           }
-          
+           else if ( i % 10 <= 19) 
+            {
+              cout << i << "th" << " Hello ..." << endl; 
+            }
        }
 return 0;     
 }
