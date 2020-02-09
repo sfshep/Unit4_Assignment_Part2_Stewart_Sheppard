@@ -17,7 +17,7 @@ int main()
 {
 int stop = 0;
 
-       cout << "\nPlease enter a stopping point that is an integer: ";
+       cout << "\nPlease enter a stopping point value that is an integer: ";
        stop = validateInt(stop); 
 
        for(int i = 1; i <= stop; i++)
