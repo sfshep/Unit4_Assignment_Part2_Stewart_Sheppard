@@ -15,5 +15,27 @@ using namespace std;
 
 int main() 
 {
+int stop = 0;
 
+       cout << "\nPlease enter a stopping point that is an integer: ";
+       stop = validateInt(stop); 
+
+       for(int i = 1; i <= stop; i++)
+       {
+         //Code can handle 1-19.
+          if( (i % 10) == 1)
+          {
+             cout << i << "st" << " Hello ..." << endl; 
+          }
+          else if(i % 10 == 2)
+          {
+            cout << i << "nd" << " Hello ..." << endl; 
+          }
+          else if(i % 10 == 3) 
+          {
+            cout << i << "rd" << " Hello ..." << endl; 
+          }
+          
+       }
+return 0;     
 }
