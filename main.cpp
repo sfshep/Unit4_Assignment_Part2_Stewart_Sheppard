@@ -23,7 +23,7 @@ int stop = 0;
        for(int i = 1; i <= stop; i++)
        {
          //Code can handle 1-19.
-          if( (i % 10) == 1)
+          if( ((i % 10) == 1) && (i != 11)) //this number ends in 1, but prevevents an inappropriat ordinal on 11.
           {
              cout << i << "st" << " Hello ..." << endl; 
           }
