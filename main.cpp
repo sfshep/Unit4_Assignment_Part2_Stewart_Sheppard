@@ -23,15 +23,15 @@ int stop = 0;
        for(int i = 1; i <= stop; i++)
        {
          //Code can handle 1-19.
-          if( ((i % 10) == 1) && (i != 11)) //this number ends in 1, but prevevents an inappropriat ordinal on 11.
+          if( ((i % 10) == 1) && (i != 11)) //this number ends in 1, but prevevents an inappropriate ordinal on 11.
           {
              cout << i << "st" << " Hello ..." << endl; 
           }
-          else if(i % 10 == 2)
+          else if((i % 10 == 2) && (i != 12)) //this number ends in 2, but prevevents an inappropriate ordinal on 12.
           {
             cout << i << "nd" << " Hello ..." << endl; 
           }
-          else if(i % 10 == 3) 
+          else if((i % 10 == 3) && (i != 13)) //this number ends in 3, but prevevents an inappropriate ordinal on 13.
           {
             cout << i << "rd" << " Hello ..." << endl; 
           }
