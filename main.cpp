@@ -39,6 +39,10 @@ int stop = 0;
             {
               cout << i << "th" << " Hello ..." << endl; 
             }
+          else 
+            {
+               cout << "Error: please input an integer: " << endl;
+            }  
        }
 return 0;     
 }
